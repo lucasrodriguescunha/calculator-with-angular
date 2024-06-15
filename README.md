@@ -10,11 +10,16 @@ Esta é uma calculadora simples feita com Angular baseada em Layout no Dribbble
 
 ### 📌 Ferramentas 𝗎𝗍𝗂𝗅𝗂𝗓𝖺𝖽𝖺s
 
+```
 Visual Studio Code
-Git/GitHub
-
-Angular/SCSS
-JavaScript/TypeScript/Node.js
+Git
+GitHub
+Angular
+SCSS
+JavaScript
+TypeScript
+Node.js
+```
 
 ### 📌 𝖨𝗇𝗌𝗍𝖺𝗅𝖺𝖼̧𝖺̃𝗈
 
