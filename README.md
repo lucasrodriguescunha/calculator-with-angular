@@ -1,27 +1,88 @@
-# CalculatorWithAngular
+# Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+### 📌 About
 
-## Development server
+Development of a Parking System Using TypeScript with Object-Oriented Code.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Desenvolvimento de um Sistema de Estacionamento Usando TypeScript com código orientado a objetos.
 
-## Code scaffolding
+![Status: em desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 📌 𝖣𝗂𝖺𝗀𝗋𝖺𝗆𝖺 𝖴𝖬𝖫
 
-## Build
+[![](https://mermaid.ink/img/pako:eNqNU01PwzAM_StVTiC2P9ADHOgkLkiThjigXkxitogkrpx00jT230k_VqUfQ-TQJn4v9rMdn4UkhSIX0oD3hYY9gy1dFtcW-Fu7_e7kA9psvf55zDY-gNTkwKILdJP2Dnv4LxW1rM1tfBtdJR66b6t1IiY7d1izHgIFMI0Kn2eutp_ICXhs7IX2FTl9RD2hXEqXBpmnMgqkVUNYCBJ0RR30FncFNvsExqtL7gtwd5-gRkdnM2iqrENHchxZLGjLVLHGAKwpz3zgWNOEVBmQ0N9egA_EzcWNCwwq6i8g4BzegVbwNEPbtK-uQ5d52uGWJMFEC3BRc1RC4_KOCvHcM1-SoDfKMTyUSX8G-0KqRzDEC82zGEjRXzcrJoneAw-kRJZYCYtso9g4V62aUoQDWixFHrcqvvJSlO4SeVAH2p2cFHngGleCqd4fRP4FxsdTXalY3n4oBysqHYhf-7FtfitRgfsgunIuv-RHPdo?type=png)](https://mermaid.live/edit#pako:eNqNU01PwzAM_StVTiC2P9ADHOgkLkiThjigXkxitogkrpx00jT230k_VqUfQ-TQJn4v9rMdn4UkhSIX0oD3hYY9gy1dFtcW-Fu7_e7kA9psvf55zDY-gNTkwKILdJP2Dnv4LxW1rM1tfBtdJR66b6t1IiY7d1izHgIFMI0Kn2eutp_ICXhs7IX2FTl9RD2hXEqXBpmnMgqkVUNYCBJ0RR30FncFNvsExqtL7gtwd5-gRkdnM2iqrENHchxZLGjLVLHGAKwpz3zgWNOEVBmQ0N9egA_EzcWNCwwq6i8g4BzegVbwNEPbtK-uQ5d52uGWJMFEC3BRc1RC4_KOCvHcM1-SoDfKMTyUSX8G-0KqRzDEC82zGEjRXzcrJoneAw-kRJZYCYtso9g4V62aUoQDWixFHrcqvvJSlO4SeVAH2p2cFHngGleCqd4fRP4FxsdTXalY3n4oBysqHYhf-7FtfitRgfsgunIuv-RHPdo)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📌 𝖥𝗎𝗇𝖼𝗂𝗈𝗇𝖺𝗅𝗂𝖽𝖺𝖽𝖾𝗌 𝖻𝖺́𝗌𝗂𝖼𝖺𝗌:
 
-## Running unit tests
+### 𝖱𝖾𝗀𝗂𝗌𝗍𝗋𝗈 𝖽𝖾 𝗏𝖾𝗂́𝖼𝗎𝗅𝗈𝗌:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [X] Nome do proprietário
+- [X] Placa do veículo
+- [X] Horário de entrada
+- [X] Horário de saída (se necessário)
 
-## Running end-to-end tests
+## 📌 𝖥𝗎𝗇𝖼𝗂𝗈𝗇𝖺𝗅𝗂𝖽𝖺𝖽𝖾𝗌 𝖺𝖽𝗂𝖼𝗂𝗈𝗇𝖺𝗂𝗌:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 𝖢𝖺́𝗅𝖼𝗎𝗅𝗈 𝖽𝖾 𝗍𝖺𝗋𝗂𝖿𝖺:
 
-## Further help
+- [X] Tarifa baseada no tempo de estacionamento (por exemplo, por hora, por fração de hora, etc.)
+- [X] Tarifa fixa para determinados períodos (diária, mensalidade)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### 𝖢𝗈𝗇𝗍𝗋𝗈𝗅𝖾 𝖽𝖾 𝗏𝖺𝗀𝖺𝗌:
+
+- [X] Número total de vagas
+- [X] Número de vagas disponíveis
+- [X] Designação de vagas específicas (para carros, motos, etc.)
+
+### 𝖧𝗂𝗌𝗍𝗈́𝗋𝗂𝖼𝗈 𝖽𝖾 𝖾𝗌𝗍𝖺𝖼𝗂𝗈𝗇𝖺𝗆𝖾𝗇𝗍𝗈:
+
+- [ ] Registro histórico de entradas e saídas
+- [ ] Relatórios de uso do estacionamento (por dia, semana, mês)
+
+### 𝖭𝗈𝗍𝗂𝖿𝗂𝖼𝖺𝖼̧𝗈̃𝖾𝗌 𝖾 𝖺𝗅𝖾𝗋𝗍𝖺𝗌:
+
+- [ ] Notificação de vagas disponíveis
+- [ ] Alertas de tempo máximo de estacionamento
+- [ ] Notificações de pagamento pendente
+
+### 𝖲𝗂𝗌𝗍𝖾𝗆𝖺 𝖽𝖾 𝗉𝖺𝗀𝖺𝗆𝖾𝗇𝗍𝗈:
+
+- [ ] Registro de pagamentos realizados
+- [X] Métodos de pagamento (dinheiro, cartão, aplicativo)
+- [ ] Emissão de recibos
+
+### 𝖦𝖾𝗌𝗍𝖺̃𝗈 𝖽𝖾 𝗎𝗌𝗎𝖺́𝗋𝗂𝗈𝗌:
+
+- [ ] Cadastro de clientes regulares
+- [ ] Sistema de login para clientes e administradores
+- [ ] Níveis de permissão (administrador, funcionário, cliente)
+
+### 𝖲𝖾𝗀𝗎𝗋𝖺𝗇𝖼̧𝖺:
+
+- [ ] Monitoramento de câmeras (registro de imagens, se for possível)
+- [ ] Controle de acesso (entrada/saída por QR code, RFID, etc.)
+
+### 📌 Ferramentas 𝗎𝗍𝗂𝗅𝗂𝗓𝖺𝖽𝖺s
+
+Visual Studio Code,
+Git, GitHub,
+StarUML, Mermaid
+
+JavaScript/TypeScript
+Node.js
+
+### 📌 𝖨𝗇𝗌𝗍𝖺𝗅𝖺𝖼̧𝖺̃𝗈
+
+```bash
+  git clone https://github.com/lucasrodriguescunha/parking-system-oo.git
+  npm run build
+  npm run start
+```
+
+### 𝖠𝗎𝗍𝗈𝗋
+
+- [@lucasrodriguescunha](https://www.github.com/lucasrodriguescunha)
+
+### 𝖫𝗂𝖼𝖾𝗇𝖼̧𝖺
+
+[MIT](https://choosealicense.com/licenses/mit/)
