@@ -4,62 +4,69 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   background-color: $bg-container;
   height: 100vh;
   width: 100vw;
-}
 
-.container-calculator {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: $bg-primary;
-  width: 280px;
-  height: 500px;
-  border-radius: 12px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
+  .container-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-.value-calculator {
-  margin-bottom: 20px;
-}
+    background-color: $bg-primary;
+    width: 280px;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
-.value-calculator input {
-  background-color: $input-color;
-  border: 2.5px solid $input-border-color;
-  height: 60px;
-  width: 240px;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-}
+    .value-calculator {
+      margin-bottom: 20px;
 
-.fields-calculator {
-  width: 240px;
-}
+      #result {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-.fields-calculator table {
-  width: 240px;
-}
+        background-color: $input-color;
+        border: 2.5px solid $input-border-color;
+        height: 60px;
+        width: 240px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      }
+    }
 
-.fields-calculator button {
-  margin: 5px;
-  padding: 10px;
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
+    .fields-calculator {
+      width: 240px;
 
-  cursor: pointer;
-  background-color: $bg-button;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  border: none;
-}
+      table {
+        width: 240px;
 
-.fields-calculator button:hover {
-  background-color: $bg-button;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
-    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
-    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        button {
+          margin: 5px;
+          padding: 10px;
+          width: 50px;
+          height: 50px;
+          border-radius: 5px;
+          cursor: pointer;
+          background-color: $bg-button;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          border: none;
+
+          &:hover {
+            background-color: $bg-button;
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+              rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px,
+              rgba(0, 0, 0, 0.07) 0px 8px 16px,
+              rgba(0, 0, 0, 0.07) 0px 16px 32px,
+              rgba(0, 0, 0, 0.07) 0px 32px 64px;
+          }
+        }
+      }
+    }
+  }
 }

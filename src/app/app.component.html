@@ -1,68 +1,68 @@
 <div class="container">
   <div class="container-calculator">
     <div class="value-calculator">
-      <input id="result" type="number" placeholder="8.74" />
+      <div id="result" #result></div>
     </div>
     <div class="fields-calculator">
       <table>
         <tbody>
           <tr>
             <td>
-              <button aria-label="Limpar">C</button>
+              <button aria-label="Limpar" (click)="clean()">C</button>
             </td>
             <td>
-              <button aria-label="Memória menos">⌫</button>
+              <button aria-label="Memória menos" (click)="back()">&larr;</button>
             </td>
             <td>
-              <button aria-label="Dividir">/</button>
+              <button aria-label="Dividir" (click)="insert('/')">/</button>
             </td>
             <td>
-              <button aria-label="Multiplicar">*</button>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <button aria-label="Número 7">7</button>
-            </td>
-            <td>
-              <button aria-label="Número 8">8</button>
-            </td>
-            <td>
-              <button aria-label="Número 9">9</button>
-            </td>
-            <td>
-              <button aria-label="Subtrair">-</button>
+              <button aria-label="Multiplicar" (click)="insert('*')">*</button>
             </td>
           </tr>
 
           <tr>
             <td>
-              <button aria-label="Número 4">4</button>
+              <button aria-label="Número 7" (click)="insert('7')">7</button>
             </td>
             <td>
-              <button aria-label="Número 5">5</button>
+              <button aria-label="Número 8" (click)="insert('8')">8</button>
             </td>
             <td>
-              <button aria-label="Número 6">6</button>
+              <button aria-label="Número 9" (click)="insert('9')">9</button>
             </td>
             <td>
-              <button aria-label="Somar">+</button>
+              <button aria-label="Subtrair" (click)="insert('-')">-</button>
             </td>
           </tr>
 
           <tr>
             <td>
-              <button aria-label="Número 1">1</button>
+              <button aria-label="Número 4" (click)="insert('4')">4</button>
             </td>
             <td>
-              <button aria-label="Número 2">2</button>
+              <button aria-label="Número 5" (click)="insert('5')">5</button>
             </td>
             <td>
-              <button aria-label="Número 3">3</button>
+              <button aria-label="Número 6" (click)="insert('6')">6</button>
+            </td>
+            <td>
+              <button aria-label="Somar" (click)="insert('+')">+</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button aria-label="Número 1" (click)="insert('1')">1</button>
+            </td>
+            <td>
+              <button aria-label="Número 2" (click)="insert('2')">2</button>
+            </td>
+            <td>
+              <button aria-label="Número 3" (click)="insert('3')">3</button>
             </td>
             <td rowspan="2">
-              <button aria-label="Igual" [ngStyle]="{ height: '112px' }">
+              <button aria-label="Igual" [ngStyle]="{ height: '112px' }" (click)="calculate()">
                 =
               </button>
             </td>
@@ -70,12 +70,12 @@
 
           <tr>
             <td colspan="2">
-              <button aria-label="Número 0" [ngStyle]="{ width: '112px' }">
+              <button aria-label="Número 0" [ngStyle]="{ width: '112px' }" (click)="insert('0')">
                 0
               </button>
             </td>
             <td>
-              <button aria-label="Ponto decimal">.</button>
+              <button aria-label="Ponto decimal" (click)="insert('.')">.</button>
             </td>
           </tr>
         </tbody>
