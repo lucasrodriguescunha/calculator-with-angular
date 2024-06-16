@@ -11,3 +11,10 @@
     cursor: pointer;
   }
 }
+
+.dark-theme {
+  background-color: $bg-secundary;
+}
+.light-theme {
+  background-color: $bg-primary;
+}
