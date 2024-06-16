@@ -1,0 +1,61 @@
+@import "../color-variables.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $bg-container;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $bg-primary;
+
+  width: 280px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.value-calculator {
+  margin-bottom: 20px;
+}
+
+.value-calculator input {
+  background-color: $input-color;
+  border: 2.5px solid $input-border-color;
+
+  height: 60px;
+  width: 240px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.fields-calculator {
+  width: 240px;
+}
+
+.fields-calculator button {
+  padding: 5px;
+  width: 15px;
+
+  background-color: $bg-button;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: none;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
