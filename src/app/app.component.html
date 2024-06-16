@@ -1,34 +1,85 @@
 <div class="container">
   <div class="container-calculator">
     <div class="value-calculator">
-      <!-- <label for="result">Resultado:</label> -->
       <input id="result" type="number" placeholder="8.74" />
     </div>
     <div class="fields-calculator">
-      <section>
-        <article class="line line-1">
-          <button aria-label="Dividir">/</button>
-          <button aria-label="Memória menos">m-</button>
-          <button aria-label="Memória mais">m+</button>
-          <button aria-label="Tox">tox</button>
-        </article>
-        <article class="line line-2">
-          <button aria-label="Multiplicar">x</button>
-          <button aria-label="Número 7">7</button>
-          <button aria-label="Número 8">8</button>
-          <button aria-label="Número 9">9</button>
-          <button aria-label="Porcentagem">%</button>
-        </article>
-        <article class="line line-3">
-          <button aria-label="Subtrair">-</button>
-          <button aria-label="Número 4">4</button>
-          <button aria-label="Número 5">5</button>
-          <button aria-label="Número 6">6</button>
-          <button aria-label="Mais ou menos">+/-</button>
-        </article>
-      </section>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <button aria-label="Limpar">C</button>
+            </td>
+            <td>
+              <button aria-label="Memória menos">⌫</button>
+            </td>
+            <td>
+              <button aria-label="Dividir">/</button>
+            </td>
+            <td>
+              <button aria-label="Multiplicar">*</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button aria-label="Número 7">7</button>
+            </td>
+            <td>
+              <button aria-label="Número 8">8</button>
+            </td>
+            <td>
+              <button aria-label="Número 9">9</button>
+            </td>
+            <td>
+              <button aria-label="Subtrair">-</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button aria-label="Número 4">4</button>
+            </td>
+            <td>
+              <button aria-label="Número 5">5</button>
+            </td>
+            <td>
+              <button aria-label="Número 6">6</button>
+            </td>
+            <td>
+              <button aria-label="Somar">+</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button aria-label="Número 1">1</button>
+            </td>
+            <td>
+              <button aria-label="Número 2">2</button>
+            </td>
+            <td>
+              <button aria-label="Número 3">3</button>
+            </td>
+            <td rowspan="2">
+              <button aria-label="Igual" [ngStyle]="{ height: '112px' }">
+                =
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <button aria-label="Número 0" [ngStyle]="{ width: '112px' }">
+                0
+              </button>
+            </td>
+            <td>
+              <button aria-label="Ponto decimal">.</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
-
-<router-outlet></router-outlet>
