@@ -8,7 +8,7 @@ Esta é uma calculadora simples feita com Angular baseada em Layout no Dribbble
 
 ![Status: em desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-### 📌 Ferramentas utilizadas | Tools used
+### 📌 Tools used | Ferramentas utilizadas
 
 ```
 Visual Studio Code
@@ -21,17 +21,17 @@ TypeScript
 Node.js
 ```
 
-### 📌 Instalação | Installation
+### 📌 Installation | Instalação
 
 ```bash
   git clone https://github.com/lucasrodriguescunha/calculator-with-angular
   ng serve
 ```
 
-### Autor | Author
+### Author | Autor
 
 - [@lucasrodriguescunha](https://www.github.com/lucasrodriguescunha)
 
-### Licença
+### License | Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
