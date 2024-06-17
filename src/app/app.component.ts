@@ -1,14 +1,11 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { CalculatorComponent } from './components/calculator/calculator.component';
-import { ThemeComponent } from './components/theme/theme.component';
 
 @Component({
-  selector: 'app-root',
   standalone: true,
+  selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
-  imports: [RouterOutlet, CommonModule, CalculatorComponent, ThemeComponent],
+  styleUrls: ['./app.component.scss'],
+  imports: [CalculatorComponent],
 })
 export class AppComponent {}

@@ -2,9 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'calculator',
   standalone: true,
-  imports: [CommonModule],
+  selector: 'calculator',
   templateUrl: './calculator.component.html',
   styleUrl: './calculator.component.scss',
 })
@@ -33,11 +32,12 @@ export class CalculatorComponent {
   // Avalia a expressão matemática no conteúdo do elemento e exibe o resultado
   calculate(): void {
     const resultElement = this.resultElement.nativeElement;
-    const result = resultElement.innerHTML;
+    const result = resultElement.innerHTML.trim();
 
     if (result) {
       try {
-        resultElement.innerHTML = eval(result);
+        const calculatedResult = Function(`return ${result}`)();
+        resultElement.innerHTML = calculatedResult;
       } catch (error) {
         resultElement.innerHTML = 'Erro';
       }
